@@ -1,0 +1,303 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Keyboard&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.display-flex {
+    display: flex;
+}
+
+.primary-color {
+    color: rgba(255, 144, 43, 1);
+}
+
+.primary-underline{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 144, 43, 1);
+}
+
+.header {
+    position: relative;
+    background-image: url(photos/coffebin-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+.navlogo {
+    margin: 20px;
+}
+
+.nav-list {
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.cart {
+    margin: 20px;
+    text-decoration: none;
+
+}
+
+.nav-links {}
+
+.header-color {
+    background-color: rgba(246, 235, 218, 1);
+
+}
+
+.navbar {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+
+.banner {
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+
+}
+
+.banner-image {
+    width: 400px;
+    height: 4oopx;
+    position: relative;
+
+
+}
+
+.order-button {
+    background-color: rgba(47, 33, 5, 1);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90px;
+}
+
+.more-menu {
+    text-decoration: none;
+}
+
+
+
+
+.popular-section {
+    width: 80%;
+    margin: auto;
+    background-image: url(photos/coffebin-bg.png);
+    background-repeat: no-repeat;
+    padding: 100px;
+    
+}
+
+
+.popular-card{
+    position: absolute;
+    top: 740px; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    gap: 80px;
+    background-image:url(photos/banner-bg.png);
+    background-repeat: no-repeat;
+   
+    
+
+
+} 
+
+
+
+.popular-card-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 210px;
+    height: 270px;
+    background: white;
+    margin: 30px auto;
+    border: 20px solid white;
+    border-radius: 10px;
+
+
+
+}
+
+.popular-card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     width: 210px;
+    height: 270px;
+    background: white;
+    margin: 30px auto;
+    border: 20px solid white;
+    border-radius: 10px;
+    
+  
+
+}
+
+.popular-card-3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     width: 210px;
+    height: 270px;
+    background: white;
+    margin: 30px auto;
+    border: 20px solid white;
+    border-radius: 10px;
+   
+
+
+}
+
+.popular-card-img {
+    height: 180px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.popular-button {
+    justify-content: space-between;
+}
+
+.hot-button {
+    color: rgba(255, 144, 43, 1);
+    border-color: rgba(255, 144, 43, 1);
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid rgba(255, 144, 43, 1);
+
+}
+
+.cold-button {
+    color: #ffd28f;
+    border-color: #ffd28f;
+    border-radius: 6px;
+    background-color: white;
+    border: 3px solid #ffd28f;
+
+}
+
+/* ddelivery */
+
+.delivery-section{
+    width: 80%;
+    margin: 400px auto 200px auto;
+
+    
+}
+
+.delivery-card{
+    justify-content: space-between;
+    padding: 100px;
+}
+
+
+/* about us  */
+
+.about-us{
+    
+    margin: auto;
+    
+    background-image: url(photos/about-us-bg.png),
+    url(photos/about-bg-cup.png);
+     /* background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover; */
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about-img{
+    position: absolute;
+    bottom: 50px;
+    margin: 0 300px;
+}
+
+
+.about-dtls{
+    margin: 0 300px;
+}
+.about-btn{
+    background-color: rgba(47, 33, 5, 1);
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 90px 0;
+    padding: 10px;
+
+}
+
+/* menu card  */
+
+.menu{
+       width: 80%;
+    margin: 90px auto;
+}
+
+.menu-card{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 60px;
+    row-gap: 5px;
+}
+
+.menu-card-items {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 350px;
+    background: white;
+    margin: 30px auto;
+    border: 20px solid white;
+    border-radius: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+} 
+
+.menu-card-img{
+  height: 230px;
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.menu-rating-img{
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    height: 30px;
+    width: 60px;
+
+}
+
+/* what they say  */
+
+.they-say{
+
+    
+    
+
+}
